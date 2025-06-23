@@ -1,5 +1,5 @@
 import json
-from my_plot import GAPlots
+# from my_plot import GAPlots
 import my_config
 import experiment_configuration
 import GA_Optimization
@@ -87,9 +87,9 @@ if __name__ == "__main__":
         ga_.service2DevicePlacementMatrixGA = service2DevicePlacementMatrixGA
         ga_results.append(ga_)
 
-    # # 6. Plot hasil
-    plotter = GAPlots(ga_results, cnf_)
-    plotter.plot_all()
+    # # # 6. Plot hasil
+    # plotter = GAPlots(ga_results, cnf_)
+    # plotter.plot_all()
 
     run_GA_Optimization()
     run_GA_community()

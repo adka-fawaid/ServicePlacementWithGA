@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "name": "0",
+    "deadline": 10000,
+    "module": [{ "id": 0, "name": "0_0", "RAM": 1, "type": "MODULE" }],
+    "message": [
+      {
+        "name": "M.USER.APP.0",
+        "s": "None",
+        "d": "0_0",
+        "instructions": 1000,
+        "bytes": 100
+      }
+    ],
+    "transmission": [
+      {
+        "module": "0_0",
+        "message_in": "M.USER.APP.0",
+        "message_out": "M.RESPONSE",
+        "instructions": 500,
+        "bytes": 50
+      }
+    ]
+  }
+]
